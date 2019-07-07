@@ -1,0 +1,27 @@
+/*Function prototype:
+int solveMeFirst(int a, int b);
+where,
+    a is the first integer input.
+    b is the second integer input
+Return values
+    sum of the above two integers
+*/
+
+//code begins here
+#include<stdio.h>
+
+int a, b, sum;
+
+int solveMeFirst(int a, int b){
+    sum=a+b;
+    printf("%d", sum);
+    return 0;
+}
+
+int main(){
+    printf("a=", a);
+    scanf("%d", &a);
+    printf("b=", b);
+    scanf("%d", &b);
+    solveMeFirst(a,b);
+}
